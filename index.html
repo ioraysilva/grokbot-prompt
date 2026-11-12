@@ -22,6 +22,9 @@
   .float{position:fixed;left:16px;right:16px;bottom:16px;max-width:728px;margin:0 auto;display:block;width:calc(100% - 32px);padding:16px;font-size:17px;box-shadow:0 10px 30px rgba(0,0,0,.45)}
   footer{margin-top:24px;color:var(--muted);font-size:14px}
   a{color:var(--accent)}
+  a.get{display:flex;justify-content:space-between;align-items:center;gap:12px;text-decoration:none;color:var(--text);background:var(--card);border:1px solid var(--accent);border-radius:14px;padding:14px 16px;margin:0 0 22px}
+  a.get small{color:var(--muted);font-size:14px}
+  a.get .arrow{flex:none;background:var(--accent);color:var(--accent-ink);font-weight:700;border-radius:10px;padding:9px 14px}
 </style>
 </head>
 <body>
@@ -29,9 +32,13 @@
   <span class="tag">GrokBot · Prompt</span>
   <h1>Arquiteto de Squads de IA</h1>
   <p class="lead">Ele te entrevista sobre o teu trabalho e no final desenha um time de bots especialistas para tirar trabalho real das tuas costas.</p>
+  <a class="get" href="https://cursor.com/pt-BR/download/bot" target="_blank" rel="noopener">
+    <span>🤖 <b>Ainda não tem o GrokBot?</b><br><small>Baixa e assina aqui antes de colar o prompt</small></span>
+    <span class="arrow">Baixar →</span>
+  </a>
   <ol class="steps">
     <li><b>Copia</b> o prompt no botão abaixo.</li>
-    <li><b>Cola</b> no GrokBot (ou em qualquer IA) e manda.</li>
+    <li><b>Cola</b> no <a href="https://cursor.com/pt-BR/download/bot" target="_blank" rel="noopener">GrokBot</a> (ou em qualquer IA) e manda.</li>
     <li><b>Responde</b> as perguntas com exemplos reais e recebe teu squad pronto.</li>
   </ol>
   <div class="box">
